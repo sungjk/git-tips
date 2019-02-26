@@ -37,7 +37,7 @@
 
 # gitflow vs. git
 
-[A successful Git branching mode](git-flow.png)
+![A successful Git branching mode](git-flow.png)
 
 ## Initialize
 gitflow | git
