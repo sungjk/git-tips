@@ -172,22 +172,6 @@ _N/A_ | `git push origin master`
 &nbsp; | `git push origin --tags`
 &nbsp; | `git push origin :hotfix/1.2.1` _(if pushed)_
 
-### Syncing a fork
-1. Fetch the branches and their respective commits from the upstream repository. Commits to `master` will be stored in a local branch, `upstream/master`.
-```
-$ git fetch upstream
-```
-
-2. Check out your fork's local `master` branch.
-```
-$ git checkout master
-```
-
-3. Merge the changes from `upstream/master` into your local `master` branch. This brings your fork's `master` branch into sync with the upstream repository, without losing your local changes.
-```
-$ git checkout master
-```
-
 
 ## References
 - http://nvie.com/posts/a-successful-git-branching-model/
