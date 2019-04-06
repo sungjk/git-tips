@@ -35,6 +35,29 @@
 
 ---
 
+# git
+
+## Syncing a fork
+
+![keeping_forks_in_sync](repo-fork-sync.svg)
+
+1. Fetch the branches and their respective commits from the upstream repository. Commits to `master` will be stored in a local branch, `upstream/master`.
+```
+$ git fetch upstream
+```
+
+2. Check out your fork's local `master` branch.
+```
+$ git checkout master
+```
+
+3. Merge the changes from `upstream/master` into your local `master` branch. This brings your fork's `master` branch into sync with the upstream repository, without losing your local changes.
+```
+$ git checkout master
+```
+
+---
+
 # gitflow vs. git
 
 ![A successful Git branching mode](git-flow.png)
