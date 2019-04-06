@@ -41,6 +41,11 @@
 
 ![keeping_forks_in_sync](repo-fork-sync.svg)
 
+0. Add remote(call it "upstream") from original repository in your forked repository.
+```
+$ git remote add upstream https://github.com/whoever/whatever.git
+```
+
 1. Fetch the branches and their respective commits from the upstream repository. Commits to `master` will be stored in a local branch, `upstream/master`.
 ```
 $ git fetch upstream
@@ -53,7 +58,7 @@ $ git checkout master
 
 3. Merge the changes from `upstream/master` into your local `master` branch. This brings your fork's `master` branch into sync with the upstream repository, without losing your local changes.
 ```
-$ git checkout master
+$ git merge upstream/master
 ```
 
 ---
