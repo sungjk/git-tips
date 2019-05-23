@@ -65,7 +65,6 @@ $ git merge upstream/master
 
 Command | Description
 --------|-----
-
 git branch | List branches (the asterisk denotes the current branch)
 git branch -a	| List all branches (local and remote)
 git branch [branch name] | Create a new branch
