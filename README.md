@@ -37,6 +37,27 @@
 
 # git
 
+## Adding a remote
+1. Reinitialize your local repo; also clearing remote repos (ie origin):
+```
+$ git init
+```
+
+2. Then, will create 'origin' if it doesn't exist:
+```
+$ git remote add origin [repo-url]
+```
+
+Else, you can use the set-url subcommand to edit an existing remote:
+```
+$ git remote set-url origin [repo-url]
+```
+
+3. Also, you can check existing remotes with
+```
+$ git remote -v
+```
+
 ## Syncing a fork
 
 ![keeping_forks_in_sync](repo-fork-sync.svg)
