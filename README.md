@@ -100,6 +100,9 @@ git checkout -- [file-name.txt] | Discard changes to a file
 git merge [branch name]	| Merge a branch into the active branch
 git merge [source branch] [target branch]	| Merge a branch into a target branch
 git stash |	Stash changes in a dirty working directory
+git stash list | List all stash changes
+git stash pop | Remove a single stashed state from the stash list and apply it on top of the current working tree state
+git stash apply | Like pop, but do not remove the state from the stash list
 git stash clear |	Remove all stashed entries
 
 ---
