@@ -222,8 +222,33 @@ _N/A_ | `git push origin master`
 &nbsp; | `git push origin :hotfix/1.2.1` _(if pushed)_
 
 
+---
+
+# Aliases
+
+| Alias   | Command                    | Description                            |
+|---------|----------------------------|----------------------------------------|
+| `gfl`   | `git flow`                 | Git-Flow command                       |
+| `gfli`  | `git flow init`            | Initialize git-flow repository         |
+| `gcd`   | `git checkout develop`     | Check out develop branch               |
+| `gch`   | `git checkout hotfix`      | Check out hotfix branch                |
+| `gcr`   | `git checkout release`     | Check out release branch               |
+| `gflf`  | `git flow feature`         | List existing feature branches         |
+| `gflh`  | `git flow hotfix`          | List existing hotfix branches          |
+| `gflr`  | `git flow release`         | List existing release branches         |
+| `gflfs` | `git flow feature start`   | Start a new feature: `gflfs <name>`    |
+| `gflhs` | `git flow hotfix start`    | Start a new hotfix: `gflhs <version>`  |
+| `gflrs` | `git flow release start`   | Start a new release: `gflrs <version>` |
+| `gflff` | `git flow feature finish`  | Finish feature: `gflff <name>`         |
+| `gflfp` | `git flow feature publish` | Publish feature: `gflfp <name>`        |
+| `gflhf` | `git flow hotfix finish`   | Finish hotfix: `gflhf <version>`       |
+| `gflrf` | `git flow release finish`  | Finish release: `gflrf <version>`      |
+
+---
+
 ## References
 - http://nvie.com/posts/a-successful-git-branching-model/
 - https://help.github.com/articles/using-pull-requests#shared-repository-model
 - https://gist.github.com/JamesMGreene/cdd0ac49f90c987e45ac
+- https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/git-flow/README.md
 - Personal experience
