@@ -82,6 +82,13 @@ $ git checkout master
 $ git merge upstream/master
 ```
 
+## Features
+
+Command | Description
+--------|-----
+git clean  -d  -f . | Clear the untracked files from the local
+
+
 ## Branch & Merge
 
 Command | Description
