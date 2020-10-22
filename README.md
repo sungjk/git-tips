@@ -87,7 +87,7 @@ $ git merge upstream/master
 Command | Description
 --------|-----
 git clean  -d  -f . | Clear the untracked files from the local
-
+git reset --hard upstream/master | Delete all your local changes to master
 
 ## Branch & Merge
 
